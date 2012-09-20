@@ -1,0 +1,30 @@
+{
+    "name": "blammo-mongodb-appender",
+    "description": "MongoDB appender for Blammo",
+    "version": "0.1.0",
+    "author": "Steven Looman <steven.looman@gmail.com>",
+    "keywords": [ "logger", "logging", "log", "blammo", "mongodb" ],
+    "licenses" : [
+        {
+            "type": "2-clause BSD",
+            "url": "https://raw.github.com/StevenLooman/blammo-mongodb-appender/master/LICENSE"
+        }
+    ],
+
+    "dependencies": {
+    	"blammo": "0.4.2",
+    	"mongodb": "1.1.5"
+    },
+    "directories": {
+        "lib": "./lib",
+        "test": "./test"
+    },
+    "main": "index.js",
+    "engines": {
+        "node": ">= 0.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/StevenLooman/blammo-mongodb-appender.git"
+    }
+}
